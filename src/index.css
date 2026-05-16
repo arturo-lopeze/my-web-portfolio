@@ -1,7 +1,32 @@
 body{
     background-color:  #0B1220 ;
-    font-family: "Montserrat";
-    font-weight: 500;
-    font-style: normal;
-    color: rgb(400, 196, 255);
+    font-family: monospace;
+    font-weight: 200;
+    color: #e2e0e0 ;
+    font-size: 1rem;
+    
+}
+h1{
+    font-weight: 600;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.subtitulo{
+    display: block;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.intro{
+    display: block;
+    font-size: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
